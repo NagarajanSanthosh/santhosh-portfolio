@@ -28,7 +28,7 @@ const Skills = () => {
                 </ul>
               </div>
             </Col>
-            <Col lg={6} md={6}>
+            <Col lg={6} md={6} className='mt-4 mt-md-0'> {/* Added mt-4 for mobile spacing */}
               <div className='dfWTkB'>
                 <h4>Front-end Developer</h4>
                 <p>I enjoy creating visually appealing transitions and effects on the frontend and bringing new concepts to life.</p>
