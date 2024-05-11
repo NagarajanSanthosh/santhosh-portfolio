@@ -24,7 +24,7 @@ const About = () => {
                 <p><strong>H.S.C. Higher Secondary - Computer Science</strong></p>
               </div>
               <div>
-                <p className="description">I am a self-motivated, final-year student with a bachelor's degree. I am looking forward to contributing to the growing industry with my potential skills.</p>
+                <p className="description">As an enthusiastic final-year student poised to earn a Bachelor's degree, I am eager to apply my robust skill set to make meaningful contributions within a dynamic industry. My self-motivation and academic background have equipped me with a solid foundation to add value and drive innovation in a professional setting.</p>
               </div>
             </div>
           </Col>
