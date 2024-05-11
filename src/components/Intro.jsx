@@ -20,7 +20,7 @@ const Intro = () => {
                     <Col md={6}>
                         <div className='d-flex flex-column justify-content-center'>
                             <p className=''>Hi, I'm</p>
-                            <h1 className='fw-bold'>Santhosh</h1>
+                            <p className='fw-bold fs-3 name'>Santhosh</p>
                             <p>Frontend Developer</p>
                             <button className='btn btn-dark' onClick={openPDF}>Resume</button>
                         </div>

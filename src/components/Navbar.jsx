@@ -19,7 +19,7 @@ const Navbar = () => {
     return (
         <header>
             <div className='nav-container'>
-                <h1>Santhosh N</h1>
+                <h1 className='name fw-bold'>Santhosh N</h1>
             </div>
             <nav ref={navRef}>
                 <a href='/#' onClick={() => scrollToSection('about')}>About</a>
