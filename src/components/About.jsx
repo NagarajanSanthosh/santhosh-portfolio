@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import '../about.css'
 const About = () => {
   return (
-    <div id='about' style={{ background: '#fff', color: '#000', padding: '50px 0' }}>
+    <div id='about' className='fade-in' style={{ background: '#fff', color: '#000', padding: '50px 0' }}>
       <Container>
         <Row className='justify-content-center'>
           <Col xs={12} className='text-center mb-4'>

@@ -19,36 +19,36 @@
 }
 
 .slide-up {
-    transform: translateY(50px);
+    transform: translateZ(50px);
     opacity: 0;
-    transition: transform 1.0s ease, opacity 1.0s ease;
+    transition: transform 1.0s ease-in-out, opacity 1.5s ease-in-out;
 }
 
 .slide-up.visible {
-    transform: translateY(0);
-    opacity: 1;
+    transform: translateZ(0);
+    opacity: 2;
 }
 
 .slide-left-to-right {
     transform: translateX(-50px);
     opacity: 0;
-    transition: transform 1.0s ease, opacity 1.0s ease;
+    transition: transform 1.0s ease, opacity 1.5s ease;
 }
 
 .slide-left-to-right.visible {
     transform: translateX(0);
-    opacity: 1;
+    opacity: 2;
 }
 
 .slide-right-to-left {
     transform: translateX(50px);
     opacity: 0;
-    transition: transform 1.0s ease, opacity 1.0s ease;
+    transition: transform 1.0s ease, opacity 1.5s ease;
 }
 
 .slide-right-to-left.visible {
     transform: translateX(0);
-    opacity: 1;
+    opacity: 2;
 }
 
 .slide-down {
