@@ -1,0 +1,15 @@
+.dfWTkB {
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    background-color: rgba(252, 246, 244, 0.25);
+    padding: 2rem;
+    max-width: 90%; /* Limit maximum width */
+    height: auto; /* Auto adjust height */
+    line-height: 1.5;
+    font-family: "Ubuntu Mono", monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+  }
+  

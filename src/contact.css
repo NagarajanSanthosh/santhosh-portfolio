@@ -1,0 +1,31 @@
+#contact .starter {
+    margin-top: 7rem;
+    text-align: center;
+}
+
+.contact {
+    margin-bottom: 2rem;
+}
+
+.contact-info-out {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    padding: 0.5rem;
+}
+
+.contact-info-border {
+    display: flex;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    padding: 1rem;
+}
+
+.contact-info-in {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
