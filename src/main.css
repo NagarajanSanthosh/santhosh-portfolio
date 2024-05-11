@@ -60,15 +60,20 @@ header .nav-btn {
         height: 100%;
         width: 100%;
         display: flex;
+        flex-direction: column; /* Change to column direction */
         align-items: center;
         justify-content: center;
-        gap: 1.5rem;
         background-color: var(--mainColor);
-        transition: 1s;
+        transition: transform 1s; /* Adjusted transition time */
         transform: translateY(-100vh);
     }
 
     header .responsive-nav {
         transform: none;
+    }
+    
+    header nav a {
+        margin: 1rem 0; /* Adjusted margin for better spacing */
+        font-size: 1.5rem; /* Increased font size for better readability */
     }
 }
