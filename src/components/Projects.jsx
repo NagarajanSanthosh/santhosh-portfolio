@@ -13,7 +13,7 @@ const Projects = () => {
     };
 
     return (
-        <div id='project' style={{ paddingTop: '20px' }}>
+        <div id='project' style={{ paddingTop: '20px', minHeight: '100vh' }}>
             <Container>
                 <Row className='justify-content-center'>
                     <Col xs={12} className='text-center mb-4'>
