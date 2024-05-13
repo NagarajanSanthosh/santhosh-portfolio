@@ -6,7 +6,7 @@ import Skills from './Skills';
 import Projects from './Projects';
 import Contact from './Contact';
 import Intro from './Intro';
-
+import ParticlesComponent from './particlesjs.jsx';
 const App = () => {
 
     const [isVisibleAbout, setIsVisibleAbout] = useState(false);
@@ -36,26 +36,30 @@ const App = () => {
 
     return (
         <div className='App container'>
+            <ParticlesComponent id="particles" />
             <div className='alltextblack'>
-                <div>
+                <div className='content-container'>
                     <Navbar />
                 </div>
                 <main>
-                    <div id='intro'>
-                        <Intro />
+                    <div className='content-container'>
+                        <div id='intro'>
+                            <Intro />
+                        </div>
+                        <div id='about' className={`content ${isVisibleAbout ? 'visible' : ''} slide-up`}>
+                            <About />
+                        </div>
+                        <div id='skills' className={`content ${isVisibleSkills ? 'visible' : ''} slide-left-to-right`}>
+                            <Skills />
+                        </div>
+                        <div id='projects' className={`content ${isVisibleProjects ? 'visible' : ''} slide-right-to-left`}>
+                            <Projects />
+                        </div>
+                        <div id='contact' className={`content ${isVisibleContact ? 'visible' : ''} slide-down`}>
+                            <Contact />
+                        </div>
                     </div>
-                    <div id='about' className={`content ${isVisibleAbout ? 'visible' : ''} slide-up`}>
-                        <About />
-                    </div>
-                    <div id='skills' className={`content ${isVisibleSkills ? 'visible' : ''} slide-left-to-right`}>
-                        <Skills />
-                    </div>
-                    <div id='projects' className={`content ${isVisibleProjects ? 'visible' : ''} slide-right-to-left`}>
-                        <Projects />
-                    </div>
-                    <div id='contact' className={`content ${isVisibleContact ? 'visible' : ''} slide-down`}>
-                        <Contact />
-                    </div>
+
                 </main>
             </div>
         </div>
