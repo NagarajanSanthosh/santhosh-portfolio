@@ -11,5 +11,22 @@
     flex-direction: column;
     justify-content: center; /* Center vertically */
     align-items: center; /* Center horizontally */
+    transition: background-color 0.3s ease, color 0.3s ease;
+
   }
+  
+
+  .dfWTkB:hover {
+    background-color: #343a40; /* Bootstrap dark color */
+    color: #fff;
+  }
+  
+  .dfWTkB ul li {
+    transition: color 0.3s ease;
+  }
+  
+  .dfWTkB:hover ul li {
+    color: #fff;
+  }
+  
   
