@@ -35,7 +35,7 @@ const ParticlesComponent = (props) => {
           },
           onHover: {
             enable: true,
-            mode: "grab",
+            mode: 'grab',
           },
         },
         modes: {
@@ -50,34 +50,39 @@ const ParticlesComponent = (props) => {
       },
       particles: {
         color: {
-          value: "#000", // Set particle color to black
+          value: "#000",
         },
         links: {
-          color: "#000", // Set link color to black
-          distance: 200,
+          color: "#000",
+          distance: 150,
           enable: true,
           opacity: 0.3,
           width: 1,
         },
         move: {
-          direction: "random",
+          direction: "none",
           enable: true,
           outModes: {
-            default: "out", // Particles continue moving beyond the canvas boundaries
+            default: "bounce",
           },
-          speed: 1, // Adjust the speed as needed
+          random: true,
+          speed: 5,
+          straight: false,
         },
         number: {
-          value: 100, // Adjust the number of particles
+          density: {
+            enable: true,
+          },
+          value: 150,
         },
         opacity: {
-          value: 1.0, // Adjust particle opacity
+          value: 1.0,
         },
         shape: {
-          type: "circle", // You can also try other shapes like "triangle" or "star"
+          type: "circle",
         },
         size: {
-          value: { min: 1, max: 4 }, // Adjust particle size range
+          value: { min: 1, max: 3 },
         },
       },
       detectRetina: true,
