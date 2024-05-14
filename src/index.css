@@ -2,7 +2,11 @@
     
     width: 70%;
 }
-
+@media (max-width: 768px) {
+    .image-style {
+        width: 100%;
+    }
+}
 .intro-section {
     min-height: 100vh;
     display: flex;
