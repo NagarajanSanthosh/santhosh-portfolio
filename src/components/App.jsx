@@ -7,8 +7,8 @@ import Projects from './Projects';
 import Contact from './Contact';
 import Intro from './Intro';
 import ParticlesComponent from './particlesjs.jsx';
-const App = () => {
 
+const App = () => {
     const [isVisibleAbout, setIsVisibleAbout] = useState(false);
     const [isVisibleSkills, setIsVisibleSkills] = useState(false);
     const [isVisibleProjects, setIsVisibleProjects] = useState(false);
@@ -59,7 +59,6 @@ const App = () => {
                             <Contact />
                         </div>
                     </div>
-
                 </main>
             </div>
         </div>
