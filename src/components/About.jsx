@@ -1,7 +1,8 @@
 import React from 'react';
 import aboutImage from '../image/web-fotor.jpg';
 import { Container, Row, Col } from 'react-bootstrap';
-import '../about.css'
+import '../about.css';
+
 const About = () => {
   return (
     <div id='about-section' className='fade-in bg-dark' style={{ color: '#000', padding: '2rem', minHeight: '100vh', marginTop: '2rem' }}>
@@ -14,10 +15,10 @@ const About = () => {
             </Col>
           </Row>
           <Row className='align-items-center my-4'>
-            <Col lg={6} className='pr-lg-0'>
-              <img src={aboutImage} alt='about-image' className=' rounded' style={{maxWidth: '70%'}} />
+            <Col lg={6} xs={12} className='d-flex justify-content-center mb-4 mb-lg-0'>
+              <img src={aboutImage} alt='about-image' className='rounded img-fluid' style={{maxWidth: '70%'}} />
             </Col>
-            <Col lg={6} className='pl-lg-0 mt-5 mt-lg-0'>
+            <Col lg={6} xs={12} className='mt-5 mt-lg-0'>
               <div className="about-content">
                 <h5 className="section-title">Education</h5>
                 <div className="education-content">

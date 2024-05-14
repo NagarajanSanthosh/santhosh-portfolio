@@ -1,44 +1,44 @@
 #about {
-    background-color: #fff;
-    color: #000;
-    padding: 50px 0;
-  }
-  
-  .intro-text {
-    font-size: 24px;
-  }
-  
-  .intro-heading {
-    font-size: 36px;
-    font-weight: bold;
-  }
-  
-  .about-content {
-    padding: 20px;
-  }
-  
-  .section-title {
-    font-size: 24px;
-    font-weight: bold;
-    color: #000;
-  }
-  
-  .education-content {
-    margin-bottom: 20px;
-  }
-  
-  .education-content p {
-    margin-bottom: 5px;
-  }
-  
-  .description {
-    color: #000;
-    font-size: 18px;
-  }
-  
-  .img-fluid {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-  
+  background-color: #fff;
+  color: #000;
+  padding: 50px 0;
+}
+
+.intro-text {
+  font-size: 24px;
+}
+
+.intro-heading {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.about-content {
+  padding: 20px;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+}
+
+.education-content {
+  margin-bottom: 20px;
+}
+
+.education-content p {
+  margin-bottom: 5px;
+}
+
+.description {
+  color: #000;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
