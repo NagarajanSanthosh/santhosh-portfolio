@@ -17,8 +17,8 @@ const Skills = () => {
             <Col lg={6} md={6}>
               <div className='dfWTkB'>
                 <h4>Software Developer</h4>
-                <p>I have always liked writing clean and maintainable code.</p>
-                <p>I like to code in Java, JavaScript, Node.js, C, MySQL, Python.</p>
+                <p className='descriptions'>I have always liked writing clean and maintainable code.</p>
+                <p className='descriptions'>I like to code in Java, JavaScript, Node.js, C, MySQL, Python.</p>
                 <h5>Tools</h5>
                 <ul>
                   <li>Vs Code</li>
@@ -31,9 +31,9 @@ const Skills = () => {
             <Col lg={6} md={6} className='mt-4 mt-md-0'> {/* Added mt-4 for mobile spacing */}
               <div className='dfWTkB'>
                 <h4>Front-end Developer</h4>
-                <p>I enjoy creating visually appealing transitions and effects on the frontend and bringing new concepts to life.</p>
+                <p className='descriptions'>I enjoy creating visually appealing transitions and effects on the frontend and bringing new concepts to life.</p>
                 <h5>Skills</h5>
-                <p>HTML, CSS, JavaScript, Bootstrap, React.js, Redux, Firebase, Git.</p>
+                <p className='descriptions'>HTML, CSS, JavaScript, Bootstrap, React.js, Redux, Firebase, Git.</p>
                 <h5>Tools</h5>
                 <ul>
                   <li>Vs Code</li>
