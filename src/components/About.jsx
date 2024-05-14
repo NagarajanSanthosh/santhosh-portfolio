@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import '../about.css'
 const About = () => {
   return (
-    <div id='about-section' className='fade-in' style={{ color: '#000', padding: '2rem', minHeight: '100vh', marginTop: '2rem' }}>
+    <div id='about-section' className='fade-in bg-dark' style={{ color: '#000', padding: '2rem', minHeight: '100vh', marginTop: '2rem' }}>
       <div id="about">
         <Container fluid>
           <Row className='justify-content-center'>
