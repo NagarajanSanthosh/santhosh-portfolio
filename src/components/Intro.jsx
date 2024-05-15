@@ -10,7 +10,7 @@ const Intro = () => {
     }
 
     return (
-        <div className='intro-section' style={{ minHeight: '100vh', display: 'flex', alignItems: 'center' }}>
+        <div className='intro-section' style={{ minHeight: '90vh', display: 'flex', alignItems: 'center' }}>
             <Container>
                 <Row className='gx-4'>
                     <Col md={6}>
