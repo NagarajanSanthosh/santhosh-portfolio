@@ -19,7 +19,7 @@ const Contact = () => {
             <footer className='footer-content'>
               <a className="contact-a" href='mailto:santhoshn2982@gmail.com'><MdEmail size={30} /></a>
               <a className="contact-a" href="https://www.linkedin.com/in/santhosh-nagarajan-98686923b/" target="_blank" rel="noopener noreferrer"><FaLinkedin size={30} /></a>
-              <p>© 2024 All Rights Reserved</p>
+              <p>No copyright reserved. FEEL FREE TO COPY</p>
             </footer>
           </Col>
         </Row>
