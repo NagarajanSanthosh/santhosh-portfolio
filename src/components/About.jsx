@@ -1,7 +1,7 @@
 import React from 'react';
 import aboutImage from '../image/web-fotor.jpg';
 import { Container, Row, Col } from 'react-bootstrap';
-import '../aboutz.css';
+import '../about.css';
 
 const About = () => {
   return (
