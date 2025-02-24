@@ -1,7 +1,7 @@
 import React from 'react';
 import aboutImage from '../image/web-fotor.jpg';
 import { Container, Row, Col } from 'react-bootstrap';
-import '../about.css';
+import '../aboutz.css';
 
 const About = () => {
   return (
@@ -26,7 +26,7 @@ const About = () => {
                   <p><strong>H.S.C. Higher Secondary - Computer Science</strong></p>
                 </div>
                 <div>
-                  <p className="description">As an enthusiastic final-year student poised to earn a Bachelor's degree, I am eager to apply my robust skill set to make meaningful contributions within a dynamic industry. My self-motivation and academic background have equipped me with a solid foundation to add value and drive innovation in a professional setting.</p>
+                  <p className="description">As a dedicated graduate with a Bachelor's degree in Information Technology, I am eager to apply my robust skill set to make meaningful contributions within a dynamic industry. My self-motivation and academic background have equipped me with a solid foundation to add value and drive innovation professionally.</p>
                 </div>
               </div>
             </Col>
