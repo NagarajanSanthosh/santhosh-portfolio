@@ -6,7 +6,7 @@ import '../index.css'
 
 const Intro = () => {
     const openPDF = () => {
-        window.open('https://drive.google.com/file/d/1SiwTAbO2DALuv1Sj7HuWFfpfXUf625Wo/view?usp=sharing', '_blank');
+        window.open('https://drive.google.com/file/d/1WxZz1RwX_913dYT_Rjq85wxV4roYktmx/view?usp=drive_link', '_blank');
     }
 
     return (
